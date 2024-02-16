@@ -1,0 +1,165 @@
+html{
+    width: 1440px;
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: Lexend Deca;
+    font-weight: 400;
+    line-height: 1.7;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-container{
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-section{
+    width: 300px;
+    padding: 50px 45px;
+    background-color: hsl(31, 77%, 52%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.middle-section{
+    width: 300px;
+    padding: 50px 45px;
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.right-section{
+    width: 300px;
+    padding: 50px 45px;
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+figure{
+    padding-bottom: 20px;
+    
+}
+
+.title{
+    padding-bottom: 18px;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: hsl(0, 0%, 95%);
+}
+
+button{
+    margin-top: 70px;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+.left-button:hover{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.middle-button:hover{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.right-button:hover{
+    background-color: hsl(179, 100%, 13%);
+}
+
+button:hover{
+    border: 2px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+button p:hover{
+    color: hsl(0, 0%, 95%);
+}
+
+.left-button p{
+    color: hsl(31, 77%, 52%);
+    font-size: 15px;
+}
+
+.middle-button p{
+    color: hsl(184, 100%, 22%);
+    font-size: 15px;
+}
+
+.right-button p{
+    color: hsl(179, 100%, 13%);
+    font-size: 15px;
+}
+
+.attribution{
+    padding-top: 5px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+
+@media (max-width:567px){
+
+    html{
+        width: 375px;
+    }
+
+    .card-container{
+        margin-top: 30px;
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-section{
+        width: 225px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+
+    .middle-section{
+        width: 225px;
+    }
+
+    .right-section{
+        width: 225px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 10px;
+    }
+
+    button{
+        margin-top: 25px;
+    }
+
+    
+    
+}
